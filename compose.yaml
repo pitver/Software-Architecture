@@ -49,7 +49,7 @@ services:
     command: yarn test:microfrontend
     restart: 'no'
     environment:
-          CI: true
+          CI: "true"
 
   frontend:
     build:
