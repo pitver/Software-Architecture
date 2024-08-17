@@ -1,5 +1,6 @@
 ## Task_1
-[task1.1](Task1\Task1.1\Analysis and planning\Analysis of the current system.MD)
+[task1.1](Task1/Task1.1/Analysis%20and%20planning/Analysis%20of%20the%20current%20system.MD)
+
 
 [task1.2 Code](Task1/Task1.2/Development of microservices architecture/code/Code.MD)</br>
 [task1.2 Components](Task1/Task1.2/Development of microservices architecture/components/Components.MD)
