@@ -1,0 +1,92 @@
+asyncapi: 3.0.0
+info:
+  title: Device Management Service API
+  version: 1.0.0
+  description: >
+    Асинхронное API для сервиса управления устройствами, использующее Kafka для
+    публикации и подписки на события, связанные с состоянием устройств.
+servers:
+  production:
+    host: 'kafka-broker:9092'
+    protocol: kafka
+channels:
+  deviceStateChange:
+    address: deviceStateChange
+    messages:
+      publishDeviceStateChange.message:
+        contentType: application/json
+        payload:
+          type: object
+          properties:
+            device_id:
+              type: string
+              description: Идентификатор устройства.
+            new_state:
+              type: string
+              description: Новое состояние устройства.
+            timestamp:
+              type: string
+              format: date-time
+              description: Время изменения состояния.
+      onDeviceStateChange.message:
+        contentType: application/json
+        payload:
+          type: object
+          properties:
+            device_id:
+              type: string
+              description: Идентификатор устройства.
+            new_state:
+              type: string
+              description: Новое состояние устройства.
+            timestamp:
+              type: string
+              format: date-time
+              description: Время изменения состояния.
+    description: Канал для публикации изменений состояния устройств.
+operations:
+  publishDeviceStateChange:
+    action: receive
+    channel:
+      $ref: '#/channels/deviceStateChange'
+    summary: Публикация события изменения состояния устройства.
+    messages:
+      - $ref: '#/channels/deviceStateChange/messages/publishDeviceStateChange.message'
+  onDeviceStateChange:
+    action: send
+    channel:
+      $ref: '#/channels/deviceStateChange'
+    summary: Подписка на события изменения состояния устройств.
+    messages:
+      - $ref: '#/channels/deviceStateChange/messages/onDeviceStateChange.message'
+components:
+  messages:
+    DeviceStateChangeMessage:
+      contentType: application/json
+      payload:
+        type: object
+        properties:
+          device_id:
+            type: string
+            description: Идентификатор устройства.
+          new_state:
+            type: string
+            description: Новое состояние устройства.
+          timestamp:
+            type: string
+            format: date-time
+            description: Время изменения состояния.
+  schemas:
+    DeviceStateChangePayload:
+      type: object
+      properties:
+        device_id:
+          type: string
+          description: Идентификатор устройства.
+        new_state:
+          type: string
+          description: Новое состояние устройства.
+        timestamp:
+          type: string
+          format: date-time
+          description: Время изменения состояния.

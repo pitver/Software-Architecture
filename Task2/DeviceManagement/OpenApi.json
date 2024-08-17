@@ -1,0 +1,188 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API",
+    "description": "application API documentation",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://springdoc.org"
+    },
+    "version": "1.0"
+  },
+  "externalDocs": {
+    "description": "Wiki Documentation",
+    "url": "https://example.wiki.github.org/docs"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8081",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/api/devices/{id}/status": {
+      "put": {
+        "tags": [
+          "device-controller"
+        ],
+        "summary": "Обновление состояния устройства",
+        "description": "Обновляет состояние устройства (например, включить/выключить).",
+        "operationId": "updateDeviceStatus",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "Устройство не найдено"
+          },
+          "200": {
+            "description": "Состояние устройства успешно обновлено",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Device"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/devices": {
+      "get": {
+        "tags": [
+          "device-controller"
+        ],
+        "summary": "Получение списка всех устройств",
+        "description": "Возвращает список всех зарегистрированных устройств.",
+        "operationId": "getAllDevices",
+        "responses": {
+          "200": {
+            "description": "Список устройств успешно получен",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Device"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "device-controller"
+        ],
+        "summary": "Регистрация нового устройства",
+        "description": "Регистрирует новое устройство в системе.",
+        "operationId": "registerDevice",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Device"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Устройство успешно зарегистрировано",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Device"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Некорректный запрос"
+          }
+        }
+      }
+    },
+    "/api/devices/commands": {
+      "post": {
+        "tags": [
+          "device-controller"
+        ],
+        "summary": "Отправка команды устройству",
+        "description": "Отправляет команду указанному устройству.",
+        "operationId": "sendCommand",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeviceCommand"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "404": {
+            "description": "Устройство не найдено"
+          },
+          "200": {
+            "description": "Команда успешно отправлена"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Device": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "deviceId": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "DeviceCommand": {
+        "type": "object",
+        "properties": {
+          "deviceId": {
+            "type": "string"
+          },
+          "command": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

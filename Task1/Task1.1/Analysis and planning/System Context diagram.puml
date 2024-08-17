@@ -1,0 +1,20 @@
+@startuml
+title Система Управления Отоплением - Контекст Системы
+
+actor "Пользователь" as User
+actor "Техник" as Technician
+
+package "Монолитное Приложение" {
+    component "Управление Отоплением" as HeatingControl {
+        component "Мониторинг Температуры" as TemperatureMonitoring
+    }
+}
+
+component "Датчик температуры" as TemperatureSensor
+
+User --> HeatingControl : Управление отоплением
+User --> TemperatureMonitoring : Просмотр температуры
+Technician --> HeatingControl : Подключение системы
+TemperatureMonitoring --> TemperatureSensor   : Получение данных о температуре
+
+@enduml

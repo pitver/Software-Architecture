@@ -1,0 +1,423 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Smart Home API",
+    "description": "API для управления устройствами и пользователями в экосистеме умного дома.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.smart-home.com/v1",
+      "description": "Основной сервер API"
+    }
+  ],
+  "paths": {
+    "/devices/{device_id}": {
+      "get": {
+        "summary": "Получение информации об устройстве",
+        "description": "Возвращает подробную информацию о конкретном устройстве по его ID.",
+        "parameters": [
+          {
+            "name": "device_id",
+            "in": "path",
+            "required": true,
+            "description": "Идентификатор устройства",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Информация об устройстве возвращена.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "type_id": {
+                      "type": "string"
+                    },
+                    "house_id": {
+                      "type": "string"
+                    },
+                    "serial_number": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Устройство не найдено."
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      }
+    },
+    "/devices/{device_id}/status": {
+      "put": {
+        "summary": "Обновление состояния устройства",
+        "description": "Позволяет изменить состояние устройства (например, включить/выключить).",
+        "parameters": [
+          {
+            "name": "device_id",
+            "in": "path",
+            "required": true,
+            "description": "Идентификатор устройства",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Новое состояние устройства",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "status": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Состояние устройства обновлено.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Некорректный запрос."
+          },
+          "404": {
+            "description": "Устройство не найдено."
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      }
+    },
+    "/devices/{device_id}/commands": {
+      "post": {
+        "summary": "Отправка команды устройству",
+        "description": "Отправляет команду устройству (например, «установить температуру 22 градуса»).",
+        "parameters": [
+          {
+            "name": "device_id",
+            "in": "path",
+            "required": true,
+            "description": "Идентификатор устройства",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Команда для устройства",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "command": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Команда отправлена.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Некорректный запрос."
+          },
+          "404": {
+            "description": "Устройство не найдено."
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      }
+    },
+    "/users": {
+      "get": {
+        "summary": "Получение списка пользователей",
+        "description": "Возвращает список всех пользователей системы.",
+        "responses": {
+          "200": {
+            "description": "Список пользователей успешно возвращен.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "username": {
+                        "type": "string"
+                      },
+                      "email": {
+                        "type": "string"
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date-time"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      },
+      "post": {
+        "summary": "Создание нового пользователя",
+        "description": "Регистрирует нового пользователя в системе.",
+        "requestBody": {
+          "description": "Данные нового пользователя",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Пользователь успешно создан.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Некорректный запрос."
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      }
+    },
+    "/users/{user_id}": {
+      "get": {
+        "summary": "Получение информации о пользователе",
+        "description": "Возвращает подробную информацию о пользователе по его ID.",
+        "parameters": [
+          {
+            "name": "user_id",
+            "in": "path",
+            "required": true,
+            "description": "Идентификатор пользователя",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Пользователь найден, информация возвращена.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "username": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    },
+                    "created_at": {
+                      "type": "string",
+                      "format": "date-time"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Пользователь не найден."
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      },
+      "put": {
+        "summary": "Обновление информации о пользователе",
+        "description": "Обновляет информацию о пользователе.",
+        "parameters": [
+          {
+            "name": "user_id",
+            "in": "path",
+            "required": true,
+            "description": "Идентификатор пользователя",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Новая информация о пользователе",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Информация о пользователе обновлена.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "message": {
+                      "type": "string"
+                    },
+                    "updated_at": {
+                      "type": "string",
+                      "format": "date-time"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Некорректный запрос."
+          },
+          "404": {
+            "description": "Пользователь не найден."
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      },
+      "delete": {
+        "summary": "Удаление пользователя",
+        "description": "Удаляет пользователя из системы.",
+        "parameters": [
+          {
+            "name": "user_id",
+            "in": "path",
+            "required": true,
+            "description": "Идентификатор пользователя",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Пользователь успешно удален."
+          },
+          "404": {
+            "description": "Пользователь не найден."
+          },
+          "500": {
+            "description": "Ошибка сервера."
+          }
+        }
+      }
+    }
+  }
+}

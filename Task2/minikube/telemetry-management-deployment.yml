@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: telemetry-management
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: telemetry-management
+  template:
+    metadata:
+      labels:
+        app: telemetry-management
+    spec:
+      containers:
+        - name: telemetry-management
+          image: pitver/telemetry-management:latest
+          ports:
+            - containerPort: 8082
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: telemetry-management
+spec:
+  ports:
+    - port: 8082
+  selector:
+    app: telemetry-management

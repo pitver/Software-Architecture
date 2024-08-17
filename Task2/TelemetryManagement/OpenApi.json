@@ -1,0 +1,120 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API",
+    "description": "application API documentation",
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://springdoc.org"
+    },
+    "version": "1.0"
+  },
+  "externalDocs": {
+    "description": "Wiki Documentation",
+    "url": "https://example.wiki.github.org/docs"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8082",
+      "description": "Generated server url"
+    }
+  ],
+  "paths": {
+    "/api/telemetry": {
+      "post": {
+        "tags": [
+          "telemetry-controller"
+        ],
+        "summary": "Прием телеметрических данных",
+        "description": "Получает и сохраняет телеметрические данные от устройства.",
+        "operationId": "receiveTelemetry",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TelemetryData"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "400": {
+            "description": "Некорректный запрос"
+          },
+          "200": {
+            "description": "Телеметрические данные успешно сохранены",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TelemetryData"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/telemetry/{deviceId}": {
+      "get": {
+        "tags": [
+          "telemetry-controller"
+        ],
+        "summary": "Получение телеметрических данных по ID устройства",
+        "description": "Возвращает список телеметрических данных для указанного устройства.",
+        "operationId": "getTelemetryByDeviceId",
+        "parameters": [
+          {
+            "name": "deviceId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "Устройство не найдено"
+          },
+          "200": {
+            "description": "Данные успешно получены",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TelemetryData"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TelemetryData": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "deviceId": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  }
+}

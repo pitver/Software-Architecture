@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kong
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kong
+  template:
+    metadata:
+      labels:
+        app: kong
+    spec:
+      containers:
+        - name: kong
+          image: kong:latest
+          ports:
+            - containerPort: 8000
+            - containerPort: 8001
+          env:
+            - name: KONG_DATABASE
+              value: "off"
+            - name: KONG_DECLARATIVE_CONFIG
+              value: "/usr/local/kong/declarative/kong.yml"
+            - name: KONG_ADMIN_LISTEN
+              value: "0.0.0.0:8001"
+            - name: KONG_PROXY_LISTEN
+              value: "0.0.0.0:8000"
+          volumeMounts:
+            - name: kong-yaml-volume
+              mountPath: /usr/local/kong/declarative/kong.yml
+              subPath: kong.yml
+      volumes:
+        - name: kong-yaml-volume
+          configMap:
+            name: kong-config  # Имя ConfigMap должно совпадать
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kong
+spec:
+  ports:
+    - name: http
+      port: 8000
+    - name: admin
+      port: 8001
+  selector:
+    app: kong

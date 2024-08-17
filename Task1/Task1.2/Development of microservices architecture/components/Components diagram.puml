@@ -1,0 +1,52 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' Название диаграммы
+title Components Diagram for Smart Home Ecosystem
+
+Container_Boundary(DeviceManagementService, "Сервис Управления Устройствами [Java/Spring Boot]") {
+    Component(API, "API Component", "Spring Boot", "Обрабатывает HTTP-запросы и маршрутизирует их к соответствующим обработчикам")
+    Component(CommandProcessor, "Command Processor", "Сервис", "Обрабатывает команды для управления устройствами")
+    Component(DeviceStateManager, "Device State Manager", "Сервис", "Управляет состоянием устройств и взаимодействует с базой данных")
+    Component(EventPublisher, "Event Publisher", "Сервис", "Публикует события изменения состояния устройств в Kafka")
+    ComponentDb(DeviceDB, "Device Database", "PostgreSQL", "Хранит состояния и метаданные устройств")
+
+    API -> CommandProcessor : "sendCommand(command)"
+    CommandProcessor -> DeviceStateManager : "getDeviceState(deviceId) updateDeviceState(deviceId, newState)"
+    CommandProcessor -> EventPublisher : "publishEvent(deviceStateChanged)"
+    DeviceStateManager --> DeviceDB : "read/write device state"
+}
+
+Container_Boundary(AutomationService, "Сервис Автоматизации [Java/Spring Boot]") {
+    Component(API_Automation, "API Component", "Spring Boot", "Обрабатывает HTTP-запросы, связанные с автоматизацией")
+    Component(RuleEngine, "Rule Engine", "Сервис", "Оценивает условия и запускает действия на основе правил")
+    Component(Scheduler, "Scheduler", "Сервис", "Управляет расписанием выполнения задач автоматизации")
+    Component(EventSubscriber, "Event Subscriber", "Сервис", "Подписывается на события устройств из Kafka")
+    Component(ActionDispatcher, "Action Dispatcher", "Сервис", "Отправляет команды другим сервисам для выполнения действий")
+
+    API_Automation -> RuleEngine : "defineRules()"
+    RuleEngine -> Scheduler : "scheduleTask()"
+    EventSubscriber -> RuleEngine : "receiveEvent()"
+    RuleEngine -> ActionDispatcher : "triggerAction()"
+}
+
+Container_Boundary(MonitoringService, "Сервис Мониторинга [Java/Spring Boot]") {
+    Component(API_Monitoring, "API Component", "Spring Boot", "Обрабатывает запросы на получение статуса устройств")
+    Component(DataCollector, "Data Collector", "Сервис", "Собирает данные с устройств и датчиков")
+    Component(DataProcessor, "Data Processor", "Сервис", "Обрабатывает и фильтрует собранные данные")
+    Component(EventPublisher_Monitoring, "Event Publisher", "Сервис", "Публикует события мониторинга в Kafka")
+    ComponentDb(MonitoringDB, "Monitoring Database", "PostgreSQL", "Хранит данные мониторинга")
+
+    API_Monitoring -> DataCollector : "requestData()"
+    DataCollector -> DataProcessor : "processData()"
+    DataProcessor -> EventPublisher_Monitoring : "publishEvent()"
+    DataCollector --> MonitoringDB : "storeData()"
+}
+
+Queue "Kafka", "Message Broker", "Шина данных для обмена сообщениями"
+
+' Взаимодействие между сервисами и Kafka
+CommandProcessor --> Kafka : "Publish device state change events"
+EventSubscriber --> Kafka : "Subscribe to device events"
+EventPublisher_Monitoring --> Kafka : "Publish monitoring data events"
+@enduml

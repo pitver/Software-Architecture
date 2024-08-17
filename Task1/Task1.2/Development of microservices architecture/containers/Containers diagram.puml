@@ -1,0 +1,46 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+LAYOUT_WITH_LEGEND()
+title Контейнерная диаграмма экосистемы умного дома
+
+' Определение контейнеров
+Boundary(CB_API, "API Gateway") {
+    Container(C_API, "API Gateway", "Gateway", "Управляет входящими запросами и маршрутизацией")
+}
+
+Container(C_Device_Management, "Device Management Service", "Java/Spring Boot", "Управление устройствами")
+Container(C_Automation, "Automation Service", "Java/Spring Boot", "Обработка сценариев автоматизации")
+Container(C_Monitoring, "Monitoring Service", "Java/Spring Boot", "Мониторинг состояния устройств")
+Container(C_User_Management, "User Management Service", "Java/Spring Boot", "Управление пользователями")
+Container(C_Access_Control, "Access Control Service", "Java/Spring Boot", "Управление правами доступа")
+Container(C_Device_Registration, "Device Registration Service", "Java/Spring Boot", "Регистрация новых устройств")
+Container(C_Device_Integration, "Device Integration Service", "Java/Spring Boot", "Интеграция с внешними устройствами")
+
+ContainerDb(DB_User, "User Database", "PostgreSQL", "База данных пользователей")
+ContainerDb(DB_Device, "Device Database", "PostgreSQL", "База данных устройств")
+Queue "Kafka", "Message Broker", "Шина данных для обмена сообщениями"
+
+' Определение внешних систем
+System_Ext(User, "Пользователь", "Пользователь веб-интерфейса")
+System_Ext(Device, "Устройство", "Интеллектуальные устройства")
+
+' Определение связей
+Rel(User, C_API, "Запросы на управление и мониторинг")
+Rel(C_API, C_Device_Management, "Запросы управления устройствами")
+Rel(C_API, C_Automation, "Запросы автоматизации")
+Rel(C_API, C_Monitoring, "Запросы мониторинга")
+Rel(C_API, C_User_Management, "Запросы управления пользователями")
+Rel(C_API, C_Access_Control, "Запросы управления доступом")
+Rel(C_API, C_Device_Registration, "Запросы регистрации устройств")
+Rel(C_API, C_Device_Integration, "Запросы интеграции устройств")
+
+Rel(C_Monitoring, Kafka, "Публикация данных датчиков")
+Rel(C_Automation, Kafka, "Подписка на данные датчиков")
+Rel(C_Device_Management, DB_Device, "Чтение и запись данных об устройствах")
+Rel(C_User_Management, DB_User, "Чтение и запись данных пользователей")
+
+Rel(Device, C_Device_Integration, "Данные и команды устройств")
+Rel(C_Device_Integration, C_Device_Management, "Данные и команды устройств")
+Rel(C_Device_Management, C_Device_Registration, "Регистрация новых устройств")
+
+@enduml

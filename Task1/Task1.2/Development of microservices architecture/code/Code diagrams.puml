@@ -1,0 +1,45 @@
+@startuml
+title Class Diagram for Command Processor in Device Management Service
+
+class CommandProcessor {
+    +processCommand(command: Command): void
+    -validateCommand(command: Command): boolean
+    -executeCommand(command: Command): void
+    -publishEvent(deviceStateChanged: Event): void
+}
+
+class Command {
+    +commandId: String
+    +deviceId: String
+    +commandType: String
+    +payload: Map<String, Object>
+    +validate(): boolean
+}
+
+class DeviceStateManager {
+    +getDeviceState(deviceId: String): DeviceState
+    +updateDeviceState(deviceId: String, newState: DeviceState): void
+}
+
+class EventPublisher {
+    +publish(event: Event): void
+}
+
+class DeviceState {
+    +deviceId: String
+    +state: String
+    +timestamp: Date
+}
+
+class Event {
+    +eventId: String
+    +eventType: String
+    +payload: Map<String, Object>
+}
+
+CommandProcessor --> Command : "uses"
+CommandProcessor --> DeviceStateManager : "interacts with"
+CommandProcessor --> EventPublisher : "publishes events through"
+DeviceStateManager --> DeviceState : "manages"
+EventPublisher --> Event : "publishes"
+@enduml
