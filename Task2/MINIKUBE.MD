@@ -2,6 +2,7 @@
 
 В этом руководстве описаны шаги для развертывания микросервисов с использованием Minikube.
 
+
 ## Предварительные требования
 
 1. Установлен Minikube: [Minikube Installation Guide](https://minikube.sigs.k8s.io/docs/start/)
