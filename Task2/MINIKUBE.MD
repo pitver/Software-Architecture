@@ -87,5 +87,6 @@ kubectl apply -f postgres-deployment.yaml --namespace=my-namespace
 ```bash
 kubectl port-forward svc/kong 8000:8000 8001:8001
 ```
+
 Выполните шаги аналогичные шагам №5 тестированию в докере
 [тестирование](DOCKER.MD)
