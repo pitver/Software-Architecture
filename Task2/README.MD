@@ -4,3 +4,5 @@
 [докер](DOCKER.MD)
 ## Описание запуска через minikube
 [мини](MINIKUBE.MD)
+## Описание исправлений
+[fix](REVIEW.MD)
