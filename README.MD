@@ -9,4 +9,4 @@
 [task1.4](Task1/Task1.4/Creating%20and%20documenting%20the%20API/API.MD)
 
 ## Task_2
-[общее описание](Task2/READMY.MD)
+[общее описание](Task2/README.MD)
