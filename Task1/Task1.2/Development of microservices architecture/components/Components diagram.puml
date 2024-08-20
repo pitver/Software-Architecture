@@ -1,7 +1,6 @@
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
-' Название диаграммы
 title Components Diagram for Smart Home Ecosystem
 
 Container_Boundary(DeviceManagementService, "Сервис Управления Устройствами [Java/Spring Boot]") {
@@ -15,6 +14,7 @@ Container_Boundary(DeviceManagementService, "Сервис Управления �
     CommandProcessor -> DeviceStateManager : "getDeviceState(deviceId) updateDeviceState(deviceId, newState)"
     CommandProcessor -> EventPublisher : "publishEvent(deviceStateChanged)"
     DeviceStateManager --> DeviceDB : "read/write device state"
+    EventPublisher --> Kafka : "Publish device state change events"
 }
 
 Container_Boundary(AutomationService, "Сервис Автоматизации [Java/Spring Boot]") {
@@ -28,6 +28,7 @@ Container_Boundary(AutomationService, "Сервис Автоматизации [
     RuleEngine -> Scheduler : "scheduleTask()"
     EventSubscriber -> RuleEngine : "receiveEvent()"
     RuleEngine -> ActionDispatcher : "triggerAction()"
+    Scheduler -> ActionDispatcher : "triggerScheduledAction()"
 }
 
 Container_Boundary(MonitoringService, "Сервис Мониторинга [Java/Spring Boot]") {
@@ -35,18 +36,15 @@ Container_Boundary(MonitoringService, "Сервис Мониторинга [Java
     Component(DataCollector, "Data Collector", "Сервис", "Собирает данные с устройств и датчиков")
     Component(DataProcessor, "Data Processor", "Сервис", "Обрабатывает и фильтрует собранные данные")
     Component(EventPublisher_Monitoring, "Event Publisher", "Сервис", "Публикует события мониторинга в Kafka")
-    ComponentDb(MonitoringDB, "Monitoring Database", "PostgreSQL", "Хранит данные мониторинга")
 
     API_Monitoring -> DataCollector : "requestData()"
     DataCollector -> DataProcessor : "processData()"
     DataProcessor -> EventPublisher_Monitoring : "publishEvent()"
-    DataCollector --> MonitoringDB : "storeData()"
+    EventPublisher_Monitoring --> Kafka : "Publish monitoring data events"
 }
 
 Queue "Kafka", "Message Broker", "Шина данных для обмена сообщениями"
 
 ' Взаимодействие между сервисами и Kafka
-CommandProcessor --> Kafka : "Publish device state change events"
 EventSubscriber --> Kafka : "Subscribe to device events"
-EventPublisher_Monitoring --> Kafka : "Publish monitoring data events"
 @enduml

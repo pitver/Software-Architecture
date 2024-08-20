@@ -34,17 +34,4 @@ spec:
       volumes:
         - name: kong-yaml-volume
           configMap:
-            name: kong-config  # Имя ConfigMap должно совпадать
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: kong
-spec:
-  ports:
-    - name: http
-      port: 8000
-    - name: admin
-      port: 8001
-  selector:
-    app: kong
+            name: kong-config

@@ -43,6 +43,8 @@ kubectl apply -f postgres-deployment.yaml --namespace=my-namespace
 ```bash
 kubectl create configmap postgres-init --from-file=postgres-configmap.yaml --namespace=my-namespace
 kubectl apply -f postgres-deployment.yaml --namespace=my-namespace
+kubectl apply -f create-database-job.yaml
+
 ```
 
 ## Шаг 4: Запуск сервисов DeviceManagement и TelemetryManagement
@@ -51,6 +53,9 @@ kubectl apply -f postgres-deployment.yaml --namespace=my-namespace
 ```bash
 docker build -t pitver/device-management:latest .
 docker build -t pitver/telemetry-management:latest .
+
+docker push pitver/device-management:latest
+docker push pitver/telemetry-management:latest
 ```
 Альтернатива необходимо создать Docker-образы для ваших микросервисов и их публикации в GitHub Container Registry
 ```bash
@@ -76,7 +81,9 @@ kubectl apply -f telemetry-management-deployment.yml --namespace=my-namespace
 
 ```bash
 kubectl create configmap kong-config --from-file=kong.yml --namespace=my-namespace
-kubectl apply -f postgres-deployment.yaml --namespace=my-namespace
+kubectl apply -f kong-deployment.yml --namespace=my-namespace
+kubectl port-forward service/kong 8000:8000 8001:8001
+
 ```
 После всех установок вы должны увидеть
 ![img_9.png](static/image/img_9.png)

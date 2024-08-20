@@ -1,0 +1,26 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: create-databases
+spec:
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: create-databases
+          image: postgres:latest
+          command: ['sh', '-c', 'until pg_isready -h postgres-service -U $POSTGRES_USER; do sleep 2; done; psql -h postgres-service -U $POSTGRES_USER -d mydb -f /scripts/init.sql']
+          env:
+            - name: POSTGRES_USER
+              value: "user"
+            - name: POSTGRES_PASSWORD
+              value: "password"
+            - name: PGPASSWORD
+              value: "password"
+          volumeMounts:
+            - name: init-scripts
+              mountPath: /scripts
+      volumes:
+        - name: init-scripts
+          configMap:
+            name: postgres-init
