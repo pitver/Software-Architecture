@@ -1,0 +1,741 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Data Security Mindmap" id="0">
+    <mxGraphModel dx="5607" dy="2813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="501qSENEExoTiBuLj9N9-35" value="Безопасность данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="810" y="900" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-70" value="Публичные данные" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="580" y="555" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-71" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-35" target="501qSENEExoTiBuLj9N9-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-72" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Открытая информация, доступная клиентам и партнерам через сайт компании&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="300" y="470" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-73" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-70" target="501qSENEExoTiBuLj9N9-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-87" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-75" y="410" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-88" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-72" target="501qSENEExoTiBuLj9N9-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-93" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="450" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-94" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-72" target="501qSENEExoTiBuLj9N9-93" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-95" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="500" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-96" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-72" target="501qSENEExoTiBuLj9N9-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-97" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-105" y="550" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-98" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-72" target="501qSENEExoTiBuLj9N9-97" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.39999999999986" y="499.99999999999994" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-99" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Описание объектов недвижимости,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;информация о доступных услугах и предложениях&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="260" y="710" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-100" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-70" target="501qSENEExoTiBuLj9N9-99" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="439.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-113" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-105" y="660" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-114" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.042;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-99" target="501qSENEExoTiBuLj9N9-113" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-115" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-125" y="700" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-116" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.044;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-99" target="501qSENEExoTiBuLj9N9-115" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-117" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="740" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-118" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.028;exitY=1.001;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-99" target="501qSENEExoTiBuLj9N9-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-119" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-145" y="780" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-120" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-99" target="501qSENEExoTiBuLj9N9-119" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="740" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="240" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-121" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря этих данных может быть быстро восстановлена&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="620" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-122" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-113" target="501qSENEExoTiBuLj9N9-121" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-534" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-125" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение может вызвать недоверие клиентов и снизить репутацию компании&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-725" y="690" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-126" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-115" target="501qSENEExoTiBuLj9N9-125" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-127" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некорректные данные могут сбить с толку клиентов, что приведет к упущенной прибыли&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-735" y="760" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-128" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.012;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-117" target="501qSENEExoTiBuLj9N9-127" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="694.86" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-129" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Публичные данные могут стать устаревшими, но это не окажет существенного влияния.&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-729" y="860" width="370" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-130" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.005;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-119" target="501qSENEExoTiBuLj9N9-129" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-134" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря этих данных может быть быстро восстановлена&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="278" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-135" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-87" target="501qSENEExoTiBuLj9N9-134" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="348" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-136" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение может вызвать недоверие клиентов и снизить репутацию компании&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="368" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-137" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.003;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-93" target="501qSENEExoTiBuLj9N9-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-115" y="388" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-138" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некорректные данные могут сбить с толку клиентов, что приведет к упущенной прибыли&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="448" width="465" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-139" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.003;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-95" target="501qSENEExoTiBuLj9N9-138" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-126" y="428" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-130" y="428" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-140" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Публичные данные могут стать устаревшими, но это не окажет существенного влияния.&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="573" width="410" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-141" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.021;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-97" target="501qSENEExoTiBuLj9N9-140" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-133" y="468" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-142" value="Внутренние данные" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="580" y="1260" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-143" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-35" target="501qSENEExoTiBuLj9N9-142" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-144" value="&lt;ul style=&quot;box-sizing: border-box; padding: 0px 0px 0px 2em; margin-top: 16px; margin-bottom: 16px; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Внутренняя документация компании.&lt;/li&gt;&lt;/ul&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="266" y="1135" width="249" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-145" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.007;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-142" target="501qSENEExoTiBuLj9N9-144" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.25" y="1280.18" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-146" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-99" y="1105" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-147" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-144" target="501qSENEExoTiBuLj9N9-146" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9" y="1335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-148" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-109" y="1145" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-149" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-144" target="501qSENEExoTiBuLj9N9-148" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="81" y="1265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-150" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-114" y="1195" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-151" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-144" target="501qSENEExoTiBuLj9N9-150" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161" y="1165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-152" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-134" y="1245" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-153" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-144" target="501qSENEExoTiBuLj9N9-152" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="204.39999999999986" y="1195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-154" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Операционные данные для функционирования внутренних систем и управления&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="240" y="1405" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-155" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-142" target="501qSENEExoTiBuLj9N9-154" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555.9000000000001" y="1280.12" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-156" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-134" y="1355" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-157" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.015;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-154" target="501qSENEExoTiBuLj9N9-156" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="1435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-158" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-154" y="1395" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-159" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.044;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-154" target="501qSENEExoTiBuLj9N9-158" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="1435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-160" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-169" y="1435" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-161" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.028;exitY=1.001;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-154" target="501qSENEExoTiBuLj9N9-160" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="1435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-162" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-179" y="1480" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-163" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-154" target="501qSENEExoTiBuLj9N9-162" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="1356" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="211" y="1396" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-164" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Восстановление данных может занять время и затруднить операционную деятельность&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="1340" width="498" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-165" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-156" target="501qSENEExoTiBuLj9N9-164" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-563" y="1195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-166" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Неверные внутренние данные могут привести к ошибкам в принятии решений&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="1405" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-167" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-158" target="501qSENEExoTiBuLj9N9-166" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-134" y="1385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-168" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Неправильные внутренние данные могут помешать эффективной работе компании&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-730" y="1485" width="468" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-169" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.012;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-160" target="501qSENEExoTiBuLj9N9-168" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-99" y="1389.8600000000001" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-169" y="1465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-170" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Внутренние данные могут устареть, но это не нанесет значительного ущерба&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="1560" width="413" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-171" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.005;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-162" target="501qSENEExoTiBuLj9N9-170" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-319" y="1476" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-172" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Восстановление данных может занять время и затруднить операционную деятельность&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="1003" width="534.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-173" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-146" target="501qSENEExoTiBuLj9N9-172" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-124" y="1043" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-174" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Неверные внутренние данные могут привести к ошибкам в принятии решений&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="1063" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-175" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.003;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-148" target="501qSENEExoTiBuLj9N9-174" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-144" y="1083" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-176" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Неправильные внутренние данные могут помешать эффективной работе компании&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="1120" width="481" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-177" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.003;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-150" target="501qSENEExoTiBuLj9N9-176" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-155" y="1123" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-159" y="1123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-178" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Внутренние данные могут устареть, но это не нанесет значительного ущерба&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="1195" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-179" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.021;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-152" target="501qSENEExoTiBuLj9N9-178" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-162" y="1163" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-180" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-89" y="1053" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-181" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-144" target="501qSENEExoTiBuLj9N9-180" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225.99999999999955" y="1245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-182" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-134" y="1310" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-183" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-154" target="501qSENEExoTiBuLj9N9-182" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="221" y="1452" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-186" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка может привести к раскрытию внутренних бизнес-процессов и стратегий&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="930" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-187" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-180" target="501qSENEExoTiBuLj9N9-186" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-265" y="990" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-189" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка может привести к раскрытию внутренних бизнес-процессов и стратегий&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="1265" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-190" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.013;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-182" target="501qSENEExoTiBuLj9N9-189" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-855" y="1315" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-420" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-191" value="Конфидециальные данные" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1125" y="573" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-192" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-35" target="501qSENEExoTiBuLj9N9-191" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="623" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-193" value="Секретные данные" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1110" y="1265" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-194" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-35" target="501qSENEExoTiBuLj9N9-193" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1000" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="990" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-195" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Личные данные клиентов (ФИО, контактные данные, информация об объектах недвижимости)&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="416" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-196" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="501qSENEExoTiBuLj9N9-191" target="501qSENEExoTiBuLj9N9-195" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-197" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Данные о транзакциях и сделках&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="800" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-198" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.99;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-191" target="501qSENEExoTiBuLj9N9-197" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-199" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="284" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-200" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" target="501qSENEExoTiBuLj9N9-199" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="446" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-201" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="366" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-202" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-195" target="501qSENEExoTiBuLj9N9-201" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="426" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-203" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1885" y="444" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-204" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.99;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-195" target="501qSENEExoTiBuLj9N9-203" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1670" y="364" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-205" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1885" y="500.5" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-206" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.995;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-195" target="501qSENEExoTiBuLj9N9-205" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1685" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-207" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="570" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-208" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.997;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-195" target="501qSENEExoTiBuLj9N9-207" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="606" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-209" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1923" y="668" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-210" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.99;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-197" target="501qSENEExoTiBuLj9N9-209" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1773" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-211" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1883" y="750" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-212" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.985;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-197" target="501qSENEExoTiBuLj9N9-211" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1773" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-213" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1888" y="828" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-214" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.99;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-197" target="501qSENEExoTiBuLj9N9-213" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-215" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Значительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1888" y="884.5" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-216" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.986;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-197" target="501qSENEExoTiBuLj9N9-215" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1772" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-217" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1863" y="954" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-218" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.987;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-197" target="501qSENEExoTiBuLj9N9-217" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-219" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Бизнес-стратегии, планы развития компании&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1175" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-220" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.996;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-193" target="501qSENEExoTiBuLj9N9-219" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1480" y="1150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-221" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Данные о партнерах, финансовых потоках и критически важных контрактах&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="1425" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-222" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.982;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="501qSENEExoTiBuLj9N9-193" target="501qSENEExoTiBuLj9N9-221" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-223" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1937" y="1044" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-224" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.986;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-219" target="501qSENEExoTiBuLj9N9-223" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1782" y="1206" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-225" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="1105" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-226" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.979;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-219" target="501qSENEExoTiBuLj9N9-225" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="1206" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-227" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1923" y="1150" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-228" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.99;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-219" target="501qSENEExoTiBuLj9N9-227" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1782" y="1206" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-229" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1915.5" y="1205" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-230" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.988;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-219" target="501qSENEExoTiBuLj9N9-229" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1781" y="1206" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-231" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1915.5" y="1260" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-232" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.992;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-219" target="501qSENEExoTiBuLj9N9-231" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1781" y="1206" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-233" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="1330" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-234" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.996;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-221" target="501qSENEExoTiBuLj9N9-233" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="1456" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-235" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1923" y="1385" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-236" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.997;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-221" target="501qSENEExoTiBuLj9N9-235" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1788" y="1456" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-237" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="1435" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-238" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.995;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-221" target="501qSENEExoTiBuLj9N9-237" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1792" y="1455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-239" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некачественные данные&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Критический&lt;/em&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;:&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="1485" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-240" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.995;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-221" target="501qSENEExoTiBuLj9N9-239" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1791" y="1455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-241" value="&lt;strong style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Обесценивание данных&lt;/strong&gt;&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;&amp;nbsp;—&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Незначительный&lt;/em&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1915.5" y="1546" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="501qSENEExoTiBuLj9N9-242" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.995;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="501qSENEExoTiBuLj9N9-221" target="501qSENEExoTiBuLj9N9-241" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1792" y="1456" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-1" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка персональных данных может привести к серьезным юридическим последствиям и потерям репутации&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2341" y="210" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-1" parent="1" source="501qSENEExoTiBuLj9N9-199">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-3" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных может вызвать проблемы с обслуживанием клиентов и юридические последствия&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="284" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-3" parent="1" source="501qSENEExoTiBuLj9N9-201">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2510" y="334" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-5" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искаженные данные могут повлиять на выполнение сделок, что приведет к финансовым потерям&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="360" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-6" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-5" parent="1" source="501qSENEExoTiBuLj9N9-203">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2510" y="418" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-7" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некорректные данные могут привести к ошибкам при работе с клиентами и финансовыми операциями&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="430" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-7" parent="1" source="501qSENEExoTiBuLj9N9-205">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2530" y="495" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-9" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Данные могут устареть, но не приведут к большим потерям&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="500.5" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-9" parent="1" source="501qSENEExoTiBuLj9N9-207">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2500" y="593" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-11" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка персональных данных может привести к серьезным юридическим последствиям и потерям репутации&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="600" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-11" parent="1" source="501qSENEExoTiBuLj9N9-209">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2530" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-13" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря данных может вызвать проблемы с обслуживанием клиентов и юридические последствия&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2361" y="670" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-13" parent="1" source="501qSENEExoTiBuLj9N9-211">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2520" y="750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-15" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искаженные данные могут повлиять на выполнение сделок, что приведет к финансовым потерям&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2361" y="750" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-16" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-15" parent="1" source="501qSENEExoTiBuLj9N9-213">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2520" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-17" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Некорректные данные могут привести к ошибкам при работе с клиентами и финансовыми операциями&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2361" y="810" width="710" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-18" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-17" parent="1" source="501qSENEExoTiBuLj9N9-215">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2520" y="920" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-19" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Данные могут устареть, но не приведут к большим потерям&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2361" y="900" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-20" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-19" parent="1" source="501qSENEExoTiBuLj9N9-217">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2510" y="1004" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-21" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка может привести к потере конкурентных преимуществ и значительным финансовым потерям&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2331" y="1010" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-21" parent="1" source="501qSENEExoTiBuLj9N9-223">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2560" y="1073" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-23" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря таких данных затруднит дальнейшее развитие компании и может нарушить деловые отношения.&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2341" y="1063" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-23" parent="1" source="501qSENEExoTiBuLj9N9-225">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2550" y="1133" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-25" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение секретных данных может повлиять на стратегические решения и привести к значительным убыткам&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2336" y="1120" width="770" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-26" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-25" parent="1" source="501qSENEExoTiBuLj9N9-227">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2540" y="1200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-27" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Неправильные данные могут привести к принятию неверных бизнес-решений&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2345" y="1180" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-28" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-27" parent="1" source="501qSENEExoTiBuLj9N9-229">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2550" y="1275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-29" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Секретные данные редко теряют актуальность, если они хранятся корректно&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="1245" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-30" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-29" parent="1" source="501qSENEExoTiBuLj9N9-231">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2570" y="1350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-31" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Утечка может привести к потере конкурентных преимуществ и значительным финансовым потерям&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1300" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-32" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-31" parent="1" source="501qSENEExoTiBuLj9N9-233">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2140" y="1310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-33" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Потеря таких данных затруднит дальнейшее развитие компании и может нарушить деловые отношения.&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2336" y="1355" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-34" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-33" parent="1" source="501qSENEExoTiBuLj9N9-235">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2570" y="1485" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-35" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Искажение секретных данных может повлиять на стратегические решения и привести к значительным убыткам&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1415" width="770" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-35" parent="1" source="501qSENEExoTiBuLj9N9-237">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2590" y="1555" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-37" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Неправильные данные могут привести к принятию неверных бизнес-решений&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2345" y="1465" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-38" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-37" parent="1" source="501qSENEExoTiBuLj9N9-239">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2560" y="1650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-39" value="&lt;span style=&quot;font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; text-align: left;&quot;&gt;Секретные данные редко теряют актуальность, если они хранятся корректно&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2341" y="1530" width="540" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qoH1czUDMCw2piabcvU6-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" target="qoH1czUDMCw2piabcvU6-39" parent="1" source="501qSENEExoTiBuLj9N9-241">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2575" y="1750" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

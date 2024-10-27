@@ -1,0 +1,60 @@
+# Сетевая политика для разрешения трафика между front-end и back-end-api
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: non-admin-api-allow  # Имя сетевой политики для управления доступом к non-admin сервисам
+spec:
+  podSelector:
+    matchLabels:
+      role: front-end  # Политика применяется к подам с меткой role=front-end
+  policyTypes:
+    - Ingress  # Включение правил для входящего трафика
+    - Egress   # Включение правил для исходящего трафика
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: back-end-api  # Разрешить входящий трафик от подов с меткой role=back-end-api
+  egress:
+    - to:
+        - podSelector:
+            matchLabels:
+              role: back-end-api  # Разрешить исходящий трафик к подам с меткой role=back-end-api
+
+---
+
+# Сетевая политика для разрешения трафика между admin-front-end и admin-back-end-api
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: admin-api-allow  # Имя сетевой политики для управления доступом к admin сервисам
+spec:
+  podSelector:
+    matchLabels:
+      role: admin-front-end  # Политика применяется к подам с меткой role=admin-front-end
+  policyTypes:
+    - Ingress  # Включение правил для входящего трафика
+    - Egress   # Включение правил для исходящего трафика
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              role: admin-back-end-api  # Разрешить входящий трафик от подов с меткой role=admin-back-end-api
+  egress:
+    - to:
+        - podSelector:
+            matchLabels:
+              role: admin-back-end-api  # Разрешить исходящий трафик к подам с меткой role=admin-back-end-api
+
+
+---
+# Политика, запрещающая весь трафик по умолчанию
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-all
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress
