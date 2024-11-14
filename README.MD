@@ -1,6 +1,7 @@
 # Внимание для работы на локальной машине необходимо использовать свой ip адресс
 ## Настройка PKCE в Keycloak
 
+
 ### Включите параметр Proof Key for Code Exchange (PKCE) в realm-export.json
 
 ~~~
