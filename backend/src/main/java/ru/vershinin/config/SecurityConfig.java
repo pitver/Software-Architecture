@@ -16,6 +16,7 @@ import ru.vershinin.config.CustomJwtGrantedAuthoritiesConverter;
 import java.util.Arrays;
 import java.util.List;
 
+
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity

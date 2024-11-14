@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useKeycloak } from '@react-keycloak/web';
 
+
 const ReportPage: React.FC = () => {
   const { keycloak, initialized } = useKeycloak();
   const [loading, setLoading] = useState(false);

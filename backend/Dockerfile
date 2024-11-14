@@ -28,3 +28,4 @@ EXPOSE 8080
 
 # Команда для запуска приложения
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+
