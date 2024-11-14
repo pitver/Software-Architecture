@@ -20,11 +20,11 @@ services:
       KC_DB_URL: jdbc:postgresql://keycloak_db:5432/keycloak_db
       KC_DB_USERNAME: keycloak_user
       KC_DB_PASSWORD: keycloak_password
-    command: 
+    command:
       - start-dev
       - --import-realm
     volumes:
-      - ./keycloak/realm-export.json:/opt/keycloak/data/import/realm-export.json
+      - ./keycloak/realm-export.json123:/opt/keycloak/data/import/realm-export.json
     ports:
       - "8080:8080"
     depends_on:
@@ -36,7 +36,25 @@ services:
     ports:
       - "3000:3000"
     environment:
-      REACT_APP_API_URL: http://localhost:8000
-      REACT_APP_KEYCLOAK_URL: http://localhost:8080
+      REACT_APP_API_URL: http://192.168.31.196:8082
+      REACT_APP_KEYCLOAK_URL: http://192.168.31.196:8080
       REACT_APP_KEYCLOAK_REALM: reports-realm
       REACT_APP_KEYCLOAK_CLIENT_ID: reports-frontend
+      REACT_APP_PKCE_METHOD: S256
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://keycloak_db:5432/keycloak_db
+      SPRING_DATASOURCE_USERNAME: keycloak_user
+      SPRING_DATASOURCE_PASSWORD: keycloak_password
+      KEYCLOAK_URL: http://192.168.31.196:8080  # Обновлено для использования имени контейнера
+      KEYCLOAK_REALM: reports-realm
+      KEYCLOAK_CLIENT_ID: reports-frontend
+    depends_on:
+      - keycloak
+      - keycloak_db
