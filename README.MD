@@ -9,7 +9,6 @@
         "pkce.code.challenge.method": "S256"
       }
 ~~~
-
 ## Настройка фронтенда для PKCE
 
 ### Добавьте параметр initOptions в ReactKeycloakProvider и укажите параметр pkceMethod: 'S256'
