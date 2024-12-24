@@ -1,0 +1,90 @@
+@startuml
+!define RECTANGLE_STYLE skinparam componentStyle rectangle
+!define CIRCLE_STYLE skinparam componentStyle uml
+
+skinparam componentStyle rectangle
+skinparam component {
+  BackgroundColor<<Frontend>> #FFDEA6
+  BackgroundColor<<Backend>> #D5E8D4
+  BackgroundColor<<Storage>> #F8CECC
+  BackgroundColor<<External>> #C9DAF8
+}
+
+rectangle "Пользователи" {
+  actor "Пациент" as Patient
+  actor "Сотрудник ресепшена" as Receptionist
+  actor "Медицинский специалист" as Doctor
+}
+
+component "Портал записи пациентов" <<Frontend>> as Portal
+component "Мобильное приложение" <<Frontend>> as MobileApp
+
+package "Backend Layer" {
+  component "API Gateway" <<Backend>> as APIGateway
+  component "CRM система" <<Backend>> as CRM
+  component "Платёжный шлюз" <<Backend>> as PaymentGateway
+  component "Сервис уведомлений" <<Backend>> as NotificationService
+}
+
+package "Data Storage and Security" {
+  database "Шифрованная БД пациентов" <<Storage>> as EncryptedPatientDB
+  database "Шифрованная БД записей" <<Storage>> as EncryptedAppointmentDB
+  database "Журнал аудита" <<Storage>> as AuditLog
+}
+
+package "External Systems" {
+  component "API лаборатории" <<External>> as LabAPI
+  component "1С Бухгалтерия предприятия" <<External>> as Accounting1C
+  component "Exchange Mail Server" <<External>> as MailServer
+}
+
+' Комментарии
+note right of EncryptedPatientDB
+Хранение данных:
+- Зашифровано (AES-256)
+- Доступ ограничен через RBAC
+end note
+
+note right of AuditLog
+Журнал аудита:
+- Запись всех операций
+- Мониторинг подозрительных действий
+end note
+
+note top of Portal
+Периоды удаления:
+- Данные удаляются через 5 лет
+- По запросу клиента помечаются для удаления и
+  физически удаляются с использованием криптоочистки
+end note
+
+note bottom of APIGateway
+Передача данных:
+- HTTPS/TLS 1.3
+- Аутентификация через OAuth 2.0
+end note
+
+' Связи
+Patient --> Portal : "Самостоятельная запись"
+Portal --> APIGateway
+MobileApp --> APIGateway
+
+Receptionist --> CRM : "Обработка записей"
+Doctor --> CRM : "Доступ к данным пациента"
+
+APIGateway --> CRM : "Управление данными клиентов"
+APIGateway --> PaymentGateway : "Обработка платежей"
+APIGateway --> NotificationService : "Оповещения"
+
+CRM --> EncryptedPatientDB : "Чтение/запись данных"
+CRM --> EncryptedAppointmentDB : "Чтение/запись данных"
+CRM --> AuditLog : "Логирование операций"
+
+PaymentGateway --> AuditLog : "Логирование транзакций"
+NotificationService --> AuditLog : "Логирование оповещений"
+
+CRM --> LabAPI : "Передача данных анализов"
+CRM --> Accounting1C : "Передача данных для учёта"
+NotificationService --> MailServer : "Отправка уведомлений"
+
+@enduml
