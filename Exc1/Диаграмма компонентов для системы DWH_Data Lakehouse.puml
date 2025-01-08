@@ -1,0 +1,62 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title Диаграмма компонентов для системы DWH/Data Lakehouse
+
+Container_Boundary(DWH, "Система DWH/Data Lakehouse [Облачная платформа]") {
+    Component(RawLayer, "Слой сырых данных (Data Lake)", "Хранилище", "Сырые данные для хранения неструктурированных данных")
+    Component(CleanLayer, "Слой очищенных данных (Data Lake)", "Хранилище", "Очищенные данные для последующей аналитики")
+    Component(AggregatedLayer, "Слой агрегированных данных (Data Warehouse)", "Хранилище", "Агрегированные данные для отчетов")
+    Component(DataMart, "Витрина данных (Data Warehouse)", "Хранилище", "Данные для BI-инструментов")
+    Component(NewDWH, "Новое DWH", "Облачное хранилище", "Основное хранилище для аналитических данных")
+
+    Component(ETL, "ETL/ELT Процессор", "Airflow/dbt", "Организация и выполнение процессов обработки данных")
+
+    ' Связи внутри DWH/Data Lakehouse
+    ETL --> RawLayer : "Загрузка сырых данных"
+    RawLayer --> CleanLayer : "Очистка данных"
+    CleanLayer --> AggregatedLayer : "Агрегация данных"
+    CleanLayer --> DataMart : "Передача данных для аналитики"
+    AggregatedLayer --> DataMart : "Передача агрегированных данных"
+    NewDWH --> RawLayer : "Интеграция данных из внешних источников"
+}
+
+' --- Интеграционный слой ---
+Container_Boundary(IntegrationLayer, "Интеграционный слой [Middleware]") {
+    Component(Kafka, "Kafka", "Message Broker", "Основная шина обмена сообщениями")
+    Component(Camel, "Apache Camel", "Интеграционный инструмент", "Обработка легаси-данных и интеграция с Kafka")
+    Component(ETLIntegration, "Интеграция ETL", "Сервис интеграции", "Загрузка данных в DWH")
+
+    ' Взаимодействие внутри интеграционного слоя
+    Camel --> Kafka : "Трансформация легаси-данных"
+    Kafka --> ETLIntegration : "Поток данных в DWH"
+    ETLIntegration --> ETL : "Передача данных для обработки"
+    Camel --> RawLayer : "Передача данных из легаси-систем"
+}
+
+' --- BI и пользовательский доступ ---
+Container_Boundary(BI, "BI Инструменты и пользовательский доступ") {
+    Component(BIPortal, "BI Портал", "Веб-приложение", "Визуализация данных и аналитика")
+    Component(SelfServicePortal, "Портал самообслуживания", "Веб-приложение", "Портал для запросов данных")
+
+    BIPortal --> DataMart : "Запрос аналитических данных"
+    SelfServicePortal --> DataMart : "Запрос данных из витрины"
+}
+
+' --- Медицинская система ---
+Container_Boundary(MedSystem, "Медицинская система [Обработка медицинских данных]") {
+    Component(MedDataProcessor, "Обработчик медицинских данных", "Сервис", "Обрабатывает данные пациентов")
+    Component(MedDataStorage, "Хранилище медицинских данных", "Хранилище", "Хранит данные пациентов и медицинские записи")
+    Component(AIAnalysis, "Аналитика ИИ", "Сервис", "Выполняет анализ медицинских данных")
+
+    MedDataProcessor --> MedDataStorage : "Сохранение данных пациентов"
+    MedDataProcessor --> AIAnalysis : "Передача данных для анализа"
+    AIAnalysis --> RawLayer : "Получение данных из сырого слоя"
+    MedDataStorage --> RawLayer : "Передача сырых медицинских данных"
+}
+
+' --- Связи между системами ---
+Kafka --> MedDataProcessor : "Передача событий о пациентах"
+ETLIntegration --> ETL : "Передача данных для обработки"
+
+@enduml
